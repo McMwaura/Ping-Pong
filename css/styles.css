@@ -1,0 +1,33 @@
+body{
+  background-color: aquamarine;
+}
+
+header{
+  text-align: center;
+  color: indigo;
+  background-color: #FFFFFF;
+}
+
+header h1{
+  font-size: 70px;
+}
+
+#body-row{
+  margin-left: 160px;
+  margin-top: 20px;
+  
+}
+
+.left-side{
+  background-color: blueviolet;
+}
+
+.left-side h4{
+  text-align: center;
+  padding-top: 20px;
+  
+}
+
+.right-side{
+  background-color: #f72c8067; 
+}
