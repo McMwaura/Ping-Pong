@@ -1,16 +1,16 @@
-function pingPong(number){
-  for(var i = 0; i < number; i++){
-    if(i % 3 === 0 && i % 5 === 0){
-      console.log("PingPong");
-    }
-    else if(i %3 === 0){
-      console.log("Ping");
-    }
-    else if(i % 5  === 0){
-      console.log("Pong");
-    }
-    else{
-      console.log("Value of i is " + i);
+
+function pingPong(num) {   
+    for (var i = 1; i <= num; i++) {
+      event.preventDefault();
+  
+      if (i % 3 === 0 && i % 5 === 0) {
+        document.getElementById('output').innerHTML += "PingPong<br>";
+      } else if (i % 3 === 0) {
+        document.getElementById('output').innerHTML += "Ping<br>";
+      } else if (i % 5 === 0) {
+        document.getElementById('output').innerHTML += "Pong<br>";
+      } else {
+        document.getElementById('output').innerHTML += i + "<br>";
+      }
     }
   }
-}
