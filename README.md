@@ -10,21 +10,21 @@ This is a ping-pong web application created using HTML, CSS and JavaScript. The 
   * Numbers divisible by 15 are replaced with "pingpong"
 
 A sample output of what the results would be is:
-*1
-*2
-*ping
-*4
-*pong
-*ping
-*7
-*8
-*9
-*pong
-*11
-*ping
-*13
-*14
-*pingpong
+* 1
+* 2
+* ping
+* 4
+* pong
+* ping
+* 7
+* 8
+* 9
+* pong
+* 11
+* ping
+* 13
+* 14
+* pingpong
 
 ### Setup
 :confused:?? To clone this repository to your local repository follow the steps:
