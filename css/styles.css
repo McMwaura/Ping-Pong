@@ -1,15 +1,20 @@
 body{
   background-color: aquamarine;
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+  
 }
 
 header{
   text-align: center;
   color: indigo;
-  background-color: #FFFFFF;
+  background-color: #dc143c;
+  padding-bottom: 20px;
+
 }
 
 header h1{
-  font-size: 70px;
+  font-size: 75px;
 }
 
 #body-row{
@@ -30,4 +35,27 @@ header h1{
 
 .right-side{
   background-color: #f72c8067; 
+  padding-bottom: 40px;
+}
+
+#input{
+  border-radius: 5px;
+  border-color: blueviolet;
+  background-color: aqua;
+}
+
+img{
+  width: 300px;
+  
+}
+
+.go-btn{
+  border-color: blueviolet;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+.go-btn:hover { 
+  background-color: blueviolet;
+  border-color: aqua; 
 }
