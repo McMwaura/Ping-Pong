@@ -5,6 +5,7 @@
     <title>Ping Pong</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
   </head>
   <body>
 
@@ -43,16 +44,20 @@
           </ol>
           
           <hr>
-
-          <form action="" id="form1">
+        
+        <div id="ping_pong">
+          <form>
             <p><strong>Enter your number here:</strong></p>
-            <input class="form1-input" type="text" placeholder="Your number here!">
-            <button class="btn btn-primary">Ping-Pong!</button>
+            <input type="number" id="input"><input type="button" class ="btn btn-primary" onClick="pingPong(document.getElementById('input').value)" value="Go!">
+            <p id="output"></p>
           </form>
+        </div>
+             
         </div>
       </div>
     </div>
 
+    <script src="js/jquery.3.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
